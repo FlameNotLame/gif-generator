@@ -1,0 +1,25 @@
+{
+  "name": "gif-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlameNotLame/gif-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlameNotLame/gif-generator/issues"
+  },
+  "homepage": "https://github.com/FlameNotLame/gif-generator#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "multer": "^2.0.2"
+  }
+}
