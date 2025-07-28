@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Rad's GIF Generator</title>
+  <title>GIF Generator</title>
 </head>
 <body>
-    <h1>Welcome to Rad's GIF Generator</h1>
+  <h1>Make Your Own GIF</h1>
+
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label for="text">Caption:</label>
+    <input type="text" name="text" id="text" required />
+    <br><br>
+
+    <label for="file">Choose image or video:</label>
+    <input type="file" name="file" id="file" accept="image/*,video/*" required />
+    <br><br>
+
+    <button type="submit">Generate GIF</button>
+  </form>
 </body>
 </html>
